@@ -35,14 +35,28 @@ type_chart = {
     "fairy":["dark","dragon","fighting"],
     "dark":["psychic","ghost"],
     "steel":["fairy","ice","rock"],
-    "bug":["grass","psychic","dark"]
-
-    }
-
+    "bug":["grass","psychic","dark"],
+    "ice":["grass","ground","flying","dragon"],
+    "dragon":["dragon"],
+    "rock":["flying","fire","bug"],
+    "ground":["fire","steel","rock","poison","electric"],
+    "psychic":["poison","fighting"],
+    "ghost":["ghost","psychic"],
+    "flying":["fighting","bug","grass"],
+    "fighting":["normal","fighting","rock","steel","ice","dark"],
+    "normal":[]
+} 
+def type_effectiveness(attack_type,target_type):
+    if target_type in type_chart.get(attack_type, []):
+        return 2.0
+    elif attack_type in type_chart.get(target_type, []):
+        return 0.5
+    else:
+        return 1.0
 class Pokemon:
-    def __init__(self, name, p_type, hp, attack, defense, sp_attack, sp_defense, speed, moves):
+    def __init__(self, name, types, hp, attack, defense, sp_attack, sp_defense, speed, moves):
         self.name=name
-        self.p_type=p_type
+        self.types=types if isinstance(types, list) else [types]
         self.hp=hp
         self.attack=attack
         self.defense=defense
