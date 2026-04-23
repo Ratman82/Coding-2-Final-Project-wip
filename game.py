@@ -53,6 +53,13 @@ def type_effectiveness(attack_type,target_type):
         return 0.5
     else:
         return 1.0
+class Move:
+    def __init__(self, name, m_type, power, is_special=False):
+        self.name = name
+        self.type = m_type
+        self.power = power
+        self.is_special = is_special
+   
 class Pokemon:
     def __init__(self, name, types, hp, attack, defense, sp_attack, sp_defense, speed, moves):
         self.name=name
@@ -64,4 +71,9 @@ class Pokemon:
         self.sp_defense=sp_defense
         self.speed=speed
         self.moves=moves
+    def take_damage(self, damage):
+        self.hp -= damage
+        if self.hp < 0:
+            self.hp = 0
+
         
