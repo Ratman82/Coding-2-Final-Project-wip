@@ -22,3 +22,9 @@
 #    assert hp(100, 30) == 130
 #    assert hp(2, 30) == 32
 #    assert hp(53, 42) == 95
+#def test_fainted():
+#    assert fainted(100) == "not fainted"
+#    assert fainted(-10000) == "fainted"
+#    assert fainted(150) == "not fainted"
+#    assert fainted(0) == "fainted"
+#    assert fainted(1) == "not fainted"
