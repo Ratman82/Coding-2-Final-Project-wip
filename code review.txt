@@ -1,0 +1,103 @@
+# Code-Review-Template
+
+
+## 1. Basic Info
+ - Reviewer:
+ - Author of code:
+ - Project name:
+ - Date:
+
+---
+
+## 2. What the Code is Supposed to Do
+
+In my understanding, this program is trying to...
+
+
+---
+
+## 3. Functionality Check
+
+Does the code work as expected?
+
+- [ ] Works as expected  
+- [ ] Partially works  
+- [ ] Does not work  
+
+**Notes:**
+- What works:
+- What doesn't work:
+- Any error messages:
+
+---
+
+## 4. Code Clarity & Readability
+
+- [ ] Easy to read  
+- [ ] Somewhat confusing  
+- [ ] Hard to follow  
+
+**Comments:**
+- Are variable names meaningful?
+- Are functions clearly named?
+- Is the code logically organized?
+
+---
+
+## 5. Structure & Design
+
+- [ ] Well structured  
+- [ ] Needs improvement  
+- [ ] Disorganized  
+
+**Comments:**
+- Are functions used well?
+- Is there repeated code that could be simplified?
+- Could anything be broken into smaller functions?
+
+---
+
+## 6. Python Best Practices
+
+- [ ] Good practices used  
+- [ ] Some issues  
+- [ ] Major issues  
+
+**Check for:**
+- Proper indentation
+- Clean and readable code
+- Appropriate use of loops and conditionals
+- Avoidance of unnecessary global variables
+
+---
+
+## 7. Bugs or Issues Found
+
+Be specific and helpful.
+
+---
+
+## 8. Suggested Improvements
+
+Provide actionable suggestions:
+
+
+---
+
+## 9. Positive Feedback
+
+List at least two things done well:
+
+
+---
+
+## 10. Final Summary
+
+Overall evaluation:
+
+- [ ] Excellent  
+- [ ] Good  
+- [ ] Needs improvement  
+- [ ] Needs significant revision  
+
+**Summary:**
