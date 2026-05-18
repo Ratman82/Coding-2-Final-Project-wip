@@ -21,3 +21,14 @@ player_hp,enemy_hp,player_speed,enemy_speed,player_type,enemy_type,action
 75,45,50,105,grass,electric,Dragon Darts
 109,45,45,105,electric,electric,Energy Ball
 8,72,45,68,electric,rock,Fleur Cannon
+75,75,85,85,water,dragon,Misty Explosion
+16,25,85,85,water,dragon,Dragon Darts
+16,60,85,125,water,normal,Dragon Darts
+16,3,85,125,water,normal,Flip Turn
+4,75,85,95,water,dark,Dragon Darts
+4,104,85,66,water,fire,Flip Turn
+80,28,130,66,rock,fire,Flip Turn
+80,80,130,68,rock,water,Bone Club
+100,21,85,68,grass,water,Acrobatics
+100,84,85,60,grass,water,Grassy Glide
+31,37,85,60,grass,water,Grassy Glide

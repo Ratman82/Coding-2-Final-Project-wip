@@ -55,9 +55,9 @@ TYPE_CHART = {
     "psychic":  {"fighting": 2.0, "poison": 2.0, "dark": 0.0},
     "bug":      {"grass": 2.0, "psychic": 2.0, "dark": 2.0},
     "rock":     {"fire": 2.0, "ice": 2.0, "flying": 2.0, "bug": 2.0},
-    "ghost":    {"psychic": 2.0, "normal": 0.0},
-    "dragon":   {"dragon": 2.0, "fairy": 0.0},
-    "dark":     {"psychic": 2.0, "ghost": 2.0},
+    "ghost":    {"psychic": 2.0, "normal": 0.0, "ghost": 2.0},
+    "dragon":   {"dragon": 2.0, "fairy": 0.0, "steel": 0.5},
+    "dark":     {"psychic": 2.0, "ghost": 2.0,"fairy": 0.5},
     "steel":    {"ice": 2.0, "rock": 2.0, "fairy": 2.0},
     "fairy":    {"dragon": 2.0, "fighting": 2.0, "dark": 2.0},
 }
