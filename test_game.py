@@ -29,6 +29,7 @@ def make_pokemon(name, ptype):
         types=[ptype],
         moves=[]
     )
+#asked google what needed to be returned
 
 def test_type_effect():
 
@@ -70,7 +71,7 @@ def test_zero_damage():
         category="status",
         mtype="normal"
     )
-
+#asked google how I could test 0 dmg moves
     assert damage(attacker, defender, move) == 0
 
 def test_take_damage():
@@ -135,3 +136,4 @@ def test_paralysis_check_returns_boolean():
     result = paralysis_check(pokemon)
 
     assert result in [True, False]
+

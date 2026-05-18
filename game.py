@@ -477,6 +477,7 @@ def draw(stdscr, p1, p2, msg):
     safe(h - 4, 2, hp_bar(p) + f"  {p.hp}/{p.max_hp}")
     safe(h - 2, 2, "m=move | s=switch")
     stdscr.refresh()
+    #heavily searched for what to put in these loops
 
 TYPE_MOVES = {}
 
@@ -530,6 +531,7 @@ def battle(stdscr):
             first, second = (p1, p2) if p1_speed >= p2_speed else (p2, p1)
             fm = move if first is p1 else enemy_move
             sm = enemy_move if first is p1 else move
+            #Copied this in then modified
 
             lines        = []
             turn_over    = False
@@ -610,7 +612,7 @@ if __name__ == "__main__":
     if os.path.exists("battle_history.csv"):
         df = pd.read_csv("battle_history.csv")
         battle_history = df.to_dict("records")
-
+        #modified from google search code
         if len(battle_history) >= 10:
             train_model()
 

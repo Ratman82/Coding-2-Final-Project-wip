@@ -302,7 +302,7 @@ Amoonguss
 Accelgor
 Heatmor
 """.strip().splitlines()
-
+# Copied this list of pokemon from AI list aswell
 
 def get_pokemon_data(pokemon):
     pokemon = pokemon.strip().lower()

@@ -502,6 +502,7 @@ Psystrike
 Psywave
 Punishment
 """.strip().splitlines()
+#copied this from AI list of moves given
 
 # Map PokeAPI effect IDs to your internal effect keys
 EFFECT_ID_MAP = {
